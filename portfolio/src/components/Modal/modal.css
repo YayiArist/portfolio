@@ -1,0 +1,81 @@
+.overlay{
+    margin: 0;
+    padding: 0;
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+background:rgba(0,0,0,.5);
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000;
+padding: 40px;
+
+}
+.modalContainer{
+    width: 500px;
+    min-height: 100px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px,0px ;
+    padding: 20px;
+
+}
+.modalHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.modalHeader h3{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.buttonM{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+.closeModal{
+background: none;
+border: none;
+font-size: 2em;
+cursor: pointer;
+
+
+}
+.closeModal:hover{
+background: #ccc;
+}
+.technologies{
+    border-bottom: 1px solid #E8E8E8;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.tech{
+    margin: 20px;
+    display: flex;
+
+}
+.soft{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+   
+    
+}
+.soft span{
+margin: 10px;
+    background: rgba(143, 143, 143, 0.705);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,397 @@
+
+.about {
+max-width: 100vw ;
+height: calc(100vh - 70px);
+
+padding:  0 100px;
+display: flex; 
+flex-direction: column;
+/* background-color: #062f4f; */
+}
+.section{
+    background-color: rgba(255, 255, 255, 0.205);
+    border:1px solid rgba(255, 255, 255, 0.13);
+    min-height: 85vh;
+    border-radius: 30px;
+    padding-left: 50px;
+   /* box-shadow: 15px 15px 50px #0b0b1167; */
+  }
+
+.content{
+    height: 600px;
+}
+.aboutTop{
+    display: flex;
+}
+
+
+.textWrapper{
+   margin-top: 120px;
+   margin-left: 70px; 
+   height: 350px;
+}
+.aboutTitle{
+  font-size: 3em;
+  line-height: 5px;
+}
+.aboutSubtitle{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.contText{
+ display: flex;
+flex-direction: column;   
+ align-items: center;
+ justify-content: center;
+
+}
+.aboutText{
+    width: 90%;
+    font-size: 2em;
+    font-weight: 500;
+    margin:auto
+
+}
+.aboutImgCont{
+   
+    margin-top: 70px;
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 501px;
+    max-height: 501px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.aboutImg{
+    margin-top: -100px;
+    width:100%;
+    
+}
+.aditional{
+   margin-left: 70px;
+   margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    gap: 100px;
+}
+
+.languages, .learning{
+    display: flex;
+    width: 300px;
+}
+
+
+.key{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+   
+}
+.val{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    
+}
+
+.aditionalSkills{
+    display: flex;
+    visibility: hidden;
+
+}
+.social{
+    padding-top: 5px;
+    margin-top: 50px;
+    margin-right: -1px;
+    margin-left: 100px;
+    font-size: 4.1em;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+.aboutBottom{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width:48%;
+    margin-left: 50%;
+    margin-top: 30px;
+    
+   
+}
+
+
+
+/* .socialLight{
+    color: #fdfdfd;
+    font-size: 1em;
+    transition: 0.4s;
+}
+.socialLight:hover{
+    color: #ff857c8c;
+
+}
+.socialDark{
+color: #FA9E14;
+font-size: 1em;
+transition: 0.4s;
+}
+.socialDark:hover{
+color: rgba(0, 0, 0, 0.5);
+} */
+
+  @media (max-width: 1280px){
+    .about {
+       padding-left: 70px;
+       padding-right: 70px;
+    
+     }
+     .textWrapper{
+        margin-top: 100px;
+        margin-left: 50px; 
+     }
+     .aboutImgCont{
+        min-width: 400px;
+        min-height: 400px;
+        max-width: 401px;
+        max-height: 401px;
+    }
+    .aboutImg{
+        margin-top: -80px;     
+    }
+
+  
+}  
+
+
+    @media (max-width: 1024px){
+    .aboutImgCont{
+        
+        min-width: 300px;
+        min-height: 300px;
+        max-width:301px;
+        max-height: 301px;
+      
+        
+    }
+    .aboutImg{
+        margin-top: -60px;     
+    }
+    .about {
+    
+       
+        margin-top: -1.4em;
+        padding-right:  30px;
+      
+     }
+     .aboutTitle{
+        font-size: 2.5em;
+      
+      
+      }
+      .aboutSubtitle{
+          text-transform: uppercase;
+          font-size: 1.4em;
+          font-weight: 200;
+          
+         
+      } 
+    } 
+   
+    @media (max-width: 959px){
+ 
+
+     .aboutTitle{
+        font-size: 2em;
+      
+      
+      }
+      .aboutSubtitle{
+          text-transform: uppercase;
+          font-size: 1.4em;
+          font-weight: 200;
+          
+         
+      } 
+    } 
+   
+ 
+ @media (max-width: 820px){
+    .about {
+        flex-direction: column;
+        align-items: center;
+     }
+    .aboutImgCont{ 
+        min-width: 300px;
+        min-height: 300px;
+        max-width: 301px;
+        max-height:301px; 
+    }
+
+    .aboutImg{
+        margin-top: -70px;     
+    }
+
+    .textWrapper{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 0;
+      
+     }
+
+     .aboutTitle{
+        font-size: 2.5em;
+      
+      
+      }
+      .aboutSubtitle{
+          margin: 0;
+         
+      }
+}  
+@media (max-width: 568px){
+    .aboutImg{
+        margin-top: -60px;     
+    }
+     .aboutTitle{
+        font-size: 2em;
+      }
+      .aboutSubtitle{
+          font-size: 1.3em;  
+      }
+}   
+
+@media (max-width: 480px){
+    .about {
+        padding:  0 30px;
+        flex-direction: column;
+        align-items: center;
+     }
+    .aboutImgCont{ 
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 201px;
+        max-height:201px; 
+        margin-top: 60px;
+    }
+
+    .aboutImg{
+        margin-top: -40px;     
+    }
+
+   
+
+     .aboutTitle{
+        font-size: 1.7em;
+      
+      
+      }
+      .aboutSubtitle{
+          /* margin: 0; */
+          font-size: 1.1em;
+         
+      }
+}   
+@media (max-width: 411px){
+    .about {
+        padding:  0 15px;
+        flex-direction: column;
+        align-items: center;
+     }
+    .aboutImgCont{ 
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 201px;
+        max-height:201px; 
+        margin-top: 60px;
+    }
+
+    .aboutImg{
+        margin-top: -40px;     
+    }
+
+   
+
+     .aboutTitle{
+        font-size: 1.7em;
+      
+      
+      }
+      .aboutSubtitle{
+          /* margin: 0; */
+          font-size: 1.1em;
+         
+      }
+}   
+@media (max-width: 360px){
+    .about {
+        flex-direction: column;
+        align-items: center;
+     }
+    .aboutImgCont{ 
+        min-width: 170px;
+        min-height: 170px;
+        max-width: 171px;
+        max-height:171px;  
+    }
+
+    .aboutImg{
+        margin-top: -35px;     
+    }
+
+   
+
+     .aboutTitle{
+        font-size: 1.38em;
+      
+      
+      }
+      .aboutSubtitle{
+          /* margin: 0; */
+          font-size: 0.95em;
+         
+      }
+}  
+
+@media (max-width: 280px){
+    .about {
+        flex-direction: column;
+        align-items: center;
+     }
+    .aboutImgCont{ 
+        min-width: 150px;
+        min-height: 150px;
+        max-width: 151px;
+        max-height:151px;  
+    }
+
+    .aboutImg{
+        margin-top: -30px;     
+    }
+
+   
+
+     .aboutTitle{
+        font-size: 1.25em;
+      
+      
+      }
+      .aboutSubtitle{
+        
+          font-size: 0.85em;
+         
+      }
+}   
+
