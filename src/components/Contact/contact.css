@@ -1,0 +1,122 @@
+.formContainer{
+  background-color: #062f4f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+
+}
+.formSection{
+  background-color: rgba(255, 255, 255, 0.205);
+  border:1px solid rgba(255, 255, 255, 0.13);
+  min-height: 85vh;
+  border-radius: 30px;
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.formSection h2{
+  font-size: 3em;
+}
+
+.formContainer form{
+  display: flex;
+  flex-direction: column;
+ margin: auto;
+ 
+}
+
+/* From uiverse.io by @mobinkakei */
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 400px;
+}
+.form-control textarea {
+resize: none;
+height: 200px;
+}
+
+.form-control input, .form-control textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid, 
+.form-control textarea:focus,
+.form-control textarea:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span,
+.form-control textarea:focus+label span, 
+.form-control textarea:valid+label span{
+  color: lightblue;
+  transform: translateY(-30px);
+}
+/* .formContainer form input{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.411);
+
+}
+.formContainer form textarea{
+  width: 300px;
+  margin-top: 10px;
+  resize: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.411);
+} */
+.submitButton{
+  margin-top: 20px;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  background-color: rgba(223, 219, 210, 0.615);
+  width: 200px;
+  height: 50px;
+  align-self: center;
+
+}
+.submitButton:hover{
+ background-color: rgba(173, 173, 173, 0.447);
+ cursor: pointer;
+
+}
+.submitButton:hover{
+ background-color:#f0e9d316;
+ cursor: pointer;
+
+}
+

@@ -1,0 +1,107 @@
+.overlay{
+    margin: 0;
+    padding: 0;
+width: 100vw;
+height: 100vh;
+position: fixed;
+top: -75px;
+left: -100px;
+background:rgba(0,0,0,.5);
+
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000;
+padding: 40px;
+
+}
+.modalContainer{
+    width: 500px;
+    min-height: 100px;
+    position: relative;
+    border-radius: 5px;
+   border: solid 2px rgba(255, 255, 255, 0.35);
+    /* padding: 20px; */
+
+}
+.modalHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+   
+
+    border-bottom: 1px solid #63b8ab;
+}
+.modalHeader h3{
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-left:20px ;
+}
+.buttonM{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding-right:20px ;
+}
+.closeModal{
+background: none;
+border: none;
+font-size: 2em;
+cursor: pointer;
+
+
+
+}
+.closeModal:hover{
+background: #ccc;
+}
+.technologies{
+    border-bottom: 1px solid #E8E8E8;
+    display: flex;
+    flex-wrap:wrap;
+
+   
+}
+
+.tech{
+    margin: 20px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.144);
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    padding: 5px;
+    
+
+}
+.techName{
+    color:white;
+}
+.soft{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+   justify-content: space-evenly;
+   height: 150px;
+   padding: 20px;
+    
+}
+.soft span{
+margin: 10px;
+    background: rgba(252, 169, 169, 0.378);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul{ 
+    columns: 2; 
+   
+  } 
+
+  li{
+    padding: 5px;
+  }

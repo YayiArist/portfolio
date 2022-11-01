@@ -1,0 +1,20 @@
+.techCont{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.techLogo{
+    width: 40px;
+}
+
+ .techName{
+     text-transform: uppercase;
+     
+     font-weight: 900;
+     /*
+margin-top: 10px;
+font-family: "roboto" ;
+font-size: 1em;
+color: #fff;*/
+} 
