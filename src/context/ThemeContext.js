@@ -43,6 +43,7 @@ const themeStyles = {
     modalBg: "#062f4f",
     contactBg: "#062f4f",
     border: "solid 2px #ffffff59",
+    
   },
 };
 

@@ -12,7 +12,12 @@ const translations = {
       contact: "Contactame",
       projectsTitle: "Algunos de mis Proyectos",
       skills: "Mis Habilidades",
-      soft:["Proactiva", "Empatica", "Autodidacta", "Comunicación clara", "Adaptación al cambio", "Gestión del tiempo", "Responsabilidad", ]
+      soft:["Proactiva", "Empatica", "Autodidacta", "Comunicación clara", "Adaptación al cambio", "Gestión del tiempo", "Responsabilidad", ],
+      contactTitle: "Enviame tu Mensaje",
+      name:["N", "o", "m", "b", "r", "e"],
+      message: ["M","e","n","s","a","j","e"],
+      sendButton: "Enviar",
+       formAlert:"Por favor complete todos los campos"
     
     },
     en: {
@@ -24,7 +29,14 @@ const translations = {
       contact: "Contact Me",
       projectsTitle: "My Projects",
       skills: "My Skills",
-      soft:["proactive", "Empathic", "Self-taught", "Clear communication", "Adaptation to change", "Time management", "Responsibility" ]
+      soft:["proactive", "Empathic", "Self-taught", "Clear communication", "Adaptation to change", "Time management", "Responsibility" ],
+      contactTitle: "Send me a Message",
+      name:["N", "a", "m", "e"],
+      message: ["M","e","s","s","a","g","e"],
+      sendButton: "Send",
+      formAlert:"Please complete all fields"
+
+    
     }, 
   };
 
