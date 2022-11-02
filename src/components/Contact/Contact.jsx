@@ -16,13 +16,13 @@ export default function Contact() {
         
           <form action="https://formsubmit.co/yayi.arist.hz@gmail.com" method="POST">
             <div className="form-control">
-              <input maxLength="30" type="value" required />
+              <input type="text" name="name" maxLength="30" type="value" required />
             <label htmlFor="">
               {texts.name?.map(e=><span>{e}</span>)}
             </label>
             </div>
             <div className="form-control">
-              <input maxLength="30" type="value" required />
+              <input type="email" name="email" maxLength="30" type="value" required />
               <label>
                 <span>E</span>
                 <span>m</span>
@@ -32,7 +32,7 @@ export default function Contact() {
               </label>
             </div>
             <div className="form-control">
-              <textarea maxLength="350" type="value" required />
+              <textarea maxLength="350" type="value" name="message" required />
               <label>
               {texts.message?.map(e=><span>{e}</span>)}
               </label>
