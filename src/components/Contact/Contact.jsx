@@ -16,13 +16,13 @@ export default function Contact() {
         
           <form action="https://formsubmit.co/yayi.arist.hz@gmail.com" method="POST">
             <div className="form-control">
-              <input type="text" name="name" maxLength="30" type="value" required />
+              <input type="text" name="name" maxLength="30"  required />
             <label htmlFor="">
               {texts.name?.map(e=><span>{e}</span>)}
             </label>
             </div>
             <div className="form-control">
-              <input type="email" name="email" maxLength="30" type="value" required />
+              <input type="email" name="email" maxLength="30"  required />
               <label>
                 <span>E</span>
                 <span>m</span>
