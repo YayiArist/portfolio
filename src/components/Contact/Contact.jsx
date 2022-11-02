@@ -14,7 +14,7 @@ export default function Contact() {
       <div style={{ boxShadow: theme.boxShadow, backgroundColor: theme.contactBg }} className="formSection">
         <h2>{texts.contactTitle}</h2>
         
-          <form name="contact-form" netlify>
+          <form action="https://formsubmit.co/yayi.arist.hz@gmail.com" method="POST">
             <div className="form-control">
               <input maxLength="30" type="value" required />
             <label htmlFor="">
